@@ -1,0 +1,190 @@
+/* Variables */
+:root {
+
+    /* Values */
+
+    --horizon-embed-roundness: 0;
+
+    /* Colors */
+    --horizon-dark-background-normal: #1c1e26;
+    --horizon-dark-background-light: #232530;
+    --horizon-dark-background-lighter: #2e303e;
+    --horizon-dark-background-dark: #1a1c23;
+    --horizon-dark-background-darker: #16161c;
+    --horizon-gray-background-normal: #6c6f93;
+    --horizon-gray-background-light: #989ab3;
+    --horizon-gray-background-dark: #4c4e67;
+    --horizon-gray-background-darker: #2b2c3b;
+    --horizon-white-foreground-normal: #d5d8da;
+    --horizon-purple-foreground-normal: #b877db;
+    --horizon-blue-foreground-normal: #26bbd9;
+    --horizon-green-foreground-normal: #29d398;
+    --horizon-red-foreground-normal: #e95678;
+    --horizon-yellow-foreground-normal: #fab795;
+    
+    /* Discord's built in variables */
+    --header-primary: var(--horizon-white-foreground-normal);
+    --header-secondary: var(--horizon-gray-background-dark);
+    --text-normal: var(--horizon-white-foreground-normal);
+    --text-muted: var(--horizon-gray-background-dark);
+    --text-link: var(--horizon-blue-foreground-normal);
+    --text-link-low-saturation: var(--horizon-blue-foreground-normal);
+    --text-positive: var(--horizon-green-foreground-normal);
+    --text-warning: var(--horizon-yellow-foreground-normal);
+    --text-danger: var(--horizon-red-foreground-normal);
+    --interactive-normal: var(--horizon-gray-background-normal);
+    --interactive-hover: var(--horizon-gray-background-light);
+    --interactive-active: var(--horizon-purple-foreground-normal);
+    --interactive-muted: var(--horizon-gray-background-dark);
+    --background-primary: var(--horizon-dark-background-normal) !important;
+    --background-secondary: var(--horizon-dark-background-dark);
+    --background-secondary-alt: var(--horizon-dark-background-normal) !important;
+    --background-tertiary: var(--horizon-dark-background-darker);
+    --background-accent: var(--horizon-dark-background-darker);
+    --background-mobile-primary: var(--horizon-dark-background-normal);
+    --background-mobile-secondary: var(--horizon-dark-background-dark);
+    --background-modifier-hover: var();
+    --background-modifier-active: var();
+    --background-modifier-selected: var();
+    --background-modifier-accent: var();
+    --info-positive-text: var(--horizon-white-foreground-normal);
+    --info-warning-text: var(--horizon-white-foreground-normal);
+    --info-danger-text: var(--horizon-white-foreground-normal);
+}
+
+/* Chat */
+.embedFull-2tM8-- {
+    border-top: 7px solid var(--horizon-dark-background-darker);
+    border-left: none;
+    background: var(--horizon-dark-background-darker);
+    border-radius: var(--horizon-embed-roundness);
+}
+
+.contents-2mQqc9 > .avatar-1BDn8e {
+    left: 43px;
+    top: 0;
+    border: 3px solid var(--horizon-dark-background-lighter);
+    background-color: var(--horizon-dark-background-lighter);
+    border-radius: 35%;
+    z-index: 2;
+    filter: none; 
+    -webkit-filter: blur(0.3px); 
+    -moz-filter: blur(0.3px); 
+    -ms-filter: blur(0.3px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0.3');
+}
+
+.markup-2BOw-j.messageContent-2qWWxC {
+    padding-left: 95px;
+}
+
+.container-1ov-mD {
+    padding-left: 25px;
+}
+
+.username-1A8OIy {
+    background-color: var(--horizon-dark-background-lighter);
+    padding: 0 0.5em 0 1.5em;
+    margin-right: 0;
+    z-index: 1;
+}
+
+.header-23xsNx > .timestamp-3ZCmNB.timestampInline-yHQ6fX {
+    background-color: var(--horizon-dark-background-light);
+    clip-path: polygon(calc(0% + 12px) 0, 100% 0%, calc(100% - 12px) 100%, 0 100%);
+    padding: 0 1em 0 1em;
+    margin-left: 0;
+    height: 1.3rem;
+}
+
+.header-23xsNx {
+    width: fit-content;
+    background-color: var(--horizon-dark-background-lighter);
+    min-height: 1rem !important;
+    max-height: 1.3rem;
+    clip-path: polygon(0% 0, 100% 0%, calc(100% - 12px) 100%, 0 100%);
+    position: static;
+    margin-bottom: 0.3em;
+}
+
+.repliedMessage-VokQwo::before {
+    --background-accent: var(--horizon-purple-foreground-normal);
+}
+
+.repliedMessage-VokQwo {
+    left: 40px;
+    margin-bottom: 5px !important;
+    box-shadow: -35px 0 var(--horizon-dark-background-lighter);
+}
+
+.repliedMessage-VokQwo > .username-1A8OIy {
+    padding: 0 1em 0 2em;
+    clip-path: polygon(calc(0% + 10px) 0, 100% 0%, calc(100% - 10px) 100%, 0 100%);
+    margin-bottom: 2px;
+
+}
+
+.repliedMessage-VokQwo > .replyAvatar-1K9Wmr {
+    top: 0;
+    left: 0;
+    border: 3px solid var(--horizon-dark-background-lighter);
+    background-color: var(--horizon-dark-background-lighter);
+    border-radius: 0 15% 15%;
+    z-index: 2;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    filter: none; 
+    -webkit-filter: blur(0.3px); 
+    -moz-filter: blur(0.3px); 
+    -ms-filter: blur(0.3px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0.3');
+}
+
+.repliedTextContent-1R3vnK.markup-2BOw-j.messageContent-2qWWxC {
+    width: fit-content;
+}
+
+.newMessagesBar-265mhP {
+    z-index: 999;
+}
+
+h3.titleName-3-Lp3Z {
+    padding-top: 200px;
+}
+
+h3.titleName-3-Lp3Z::before {
+    display: block;
+    position: absolute;
+    content: "";
+    background: url(https://raw.githubusercontent.com/Mytrhil/Horizon-ish/main/horizon-ish_logo.png) center/285px 183px, 
+                linear-gradient(180deg, var(--horizon-dark-background-light) 70%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+form > div {
+    width: 80vw;
+    top: 10%;
+    position: fixed !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form > div > div > div.channelTextArea-rNsIhG.channelTextArea-2VhZ6z {
+    max-height: 8.3em;
+    overflow: scroll;
+    margin-bottom: 0;
+}
+
+form > div > div {
+    width: 100%;
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section {
+    display: none; /* Channel description, name and other stuff like that */
+}
