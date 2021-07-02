@@ -3,7 +3,7 @@
 
     /* Values */
 
-    --horizon-embed-roundness: 0;
+    --horizon-element-roundness: 0;
 
     /* Colors */
     --horizon-dark-background-normal: #1c1e26;
@@ -57,7 +57,7 @@
     border-top: 7px solid var(--horizon-dark-background-darker);
     border-left: none;
     background: var(--horizon-dark-background-darker);
-    border-radius: var(--horizon-embed-roundness);
+    border-radius: var(--horizon-element-roundness);
 }
 
 .contents-2mQqc9 > .avatar-1BDn8e {
@@ -157,7 +157,7 @@ h3.titleName-3-Lp3Z::before {
     display: block;
     position: absolute;
     content: "";
-    background: url(https://raw.githubusercontent.com/Mytrhil/Horizon-ish/main/horizon-ish_logo.png) center/285px 183px, 
+    background: url(https://raw.githubusercontent.com/Delta-official/Horizon-ish/main/horizon-ish_logo.png) center/285px 183px, 
                 linear-gradient(180deg, var(--horizon-dark-background-light) 70%, transparent 100%);
     background-repeat: no-repeat;
     background-position: center;
